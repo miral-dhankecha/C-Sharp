@@ -4,24 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unit_4_1
+namespace Unit_4_22
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            rectangle r = new rectangle();
-
-            r.Getdata();
-            r.calculate();
-            r.Display();
-
-            area c = new area();
-
-            c.Getdata1();
-            c.calculate1();
-            c.Display1();
-
+            Carcs c1 = new Carcs();
+            c1.get_data();
+            c1.get_car();
+            c1.show_vahicle();
+            c1.show_car();
         }
     }
 }
